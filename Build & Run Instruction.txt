@@ -1,0 +1,7 @@
+Build & Run Instruction
+1.Install Java JDK : https://docs.oracle.com/javase/8/docs/technotes/guides/install/linux_jdk.html#BJFGGEFG
+2.Install Apache Maven : http://maven.apache.org/install.html
+3.Go to the root library of project using command : cd ../atm
+4.Build via Maven using command : mvn clean package
+5.The .jar will be located at root/target/atm-0.1.jar
+6.Execute .jar file using command : java -jar atm-0.1.jar
